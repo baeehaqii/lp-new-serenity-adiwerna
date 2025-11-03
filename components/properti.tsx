@@ -344,18 +344,50 @@ export default function Properties() {
         "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1761071336/Type_85_zmze7h.avif",
         "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1761071337/type_90_qpwdco.avif",
       ],
-      floorPlan: "/denah-type-75.png",
-      name: "Tipe 75",
-      price: "7XX.XX.XXX",
+      floorPlan: "/denah-type-40.png",
+      name: "Tipe 40",
+      price: "4XX.XX.XXX",
       bedrooms: 2,
-      bathrooms: 2,
-      area: "79",
+      bathrooms: 1,
+      area: "40",
       description:
-        "Tipe 75/79 dengan 2 lantai adalah pilihan ideal untuk pasangan muda yang menginginkan rumah mewah di kawasan eksklusif. Dengan desain yang efisien, rumah ini menawarkan kenyamanan dengan harga terjangkau.",
+        "Tipe 40/72 adalah pilihan kompak dan efisien untuk pasangan muda atau keluarga kecil. Dengan desain modern minimalis, hunian ini menawarkan kenyamanan dengan harga terjangkau di lokasi strategis Adiwerna.",
       certificate: "SHM",
     },
     {
       id: 2,
+      images: [
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1761071336/Type_85_zmze7h.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1761071337/type_90_qpwdco.avif",
+      ],
+      floorPlan: "/denah-type-55.png",
+      name: "Tipe 55",
+      price: "5XX.XX.XXX",
+      bedrooms: 2,
+      bathrooms: 2,
+      area: "55",
+      description:
+        "Tipe 55/72 dengan mezzanine memberikan fleksibilitas ruang lebih untuk kebutuhan Anda. Cocok untuk keluarga muda yang menginginkan efisiensi ruang dengan sentuhan mewah di desain modern.",
+      certificate: "SHM",
+    },
+    {
+      id: 3,
+      images: [
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1761071336/Type_85_zmze7h.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1761071337/type_90_qpwdco.avif",
+      ],
+      floorPlan: "/denah-type-60.png",
+      name: "Tipe 60",
+      price: "6XX.XX.XXX",
+      bedrooms: 3,
+      bathrooms: 2,
+      area: "60",
+      description:
+        "Tipe 60/90 menawarkan ruang yang lebih luas dengan 3 kamar tidur, ideal untuk keluarga dengan anak-anak. Desain modern dan lokasi strategis memberikan nilai investasi jangka panjang.",
+      certificate: "SHM",
+    },
+    {
+      id: 4,
       images: [
         "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1761071336/Type_85_zmze7h.avif",
         "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1761071337/type_90_qpwdco.avif",
@@ -367,11 +399,11 @@ export default function Properties() {
       bathrooms: 3,
       area: "85",
       description:
-        "Tipe 85/85 dengan 2 lantai menawarkan ruang yang lebih luas dengan tambahan kamar tidur, cocok untuk keluarga dengan anak. Desain modern dan berada di kawasan eksklusif.",
+        "Tipe 85/72 dengan 2 lantai menawarkan ruang eksklusif dengan fasilitas lengkap termasuk mezzanine, cocok untuk keluarga yang menginginkan kenyamanan dan kemewahan.",
       certificate: "SHM",
     },
     {
-      id: 3,
+      id: 5,
       images: [
         "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1761071336/Type_85_zmze7h.avif",
         "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1761071337/type_90_qpwdco.avif",
@@ -379,11 +411,11 @@ export default function Properties() {
       floorPlan: "/denah-type-90.png",
       name: "Tipe 90",
       price: "9XX.XXX.XXX",
-      bedrooms: 4,
+      bedrooms: 3,
       bathrooms: 3,
       area: "90",
       description:
-        "Tipe 90/90 dengan 2 Lantai adalah pilihan premium dengan ruang lebih luas dan 4 kamar tidur. Ideal untuk keluarga yang membutuhkan ruang ekstra dan kenyamanan maksimal.",
+        "Tipe 90/90 dengan 2 Lantai adalah pilihan premium dengan ruang terbuka yang luas dan kamar tidur utama eksklusif. Ideal untuk keluarga besar yang menginginkan kenyamanan dan gaya hidup mewah.",
       certificate: "SHM",
     },
   ]
@@ -391,9 +423,9 @@ export default function Properties() {
   const siteplan = {
     id: "siteplan-1",
     image: "https://res.cloudinary.com/dqobwse9q/image/upload/w_1000,h_700,c_fill,f_auto,q_auto:eco/v1755444815/siteplane_serenity_slawi_kvzyhe.png",
-    name: "Siteplan Sapphire Serenity Slawi",
+    name: "Siteplan Sapphire Serenity Adiwerna",
     description:
-      "Masterplan perumahan Sapphire Serenity Slawi yang menampilkan layout, jalan, ruang terbuka hijau, dan fasilitas umum.",
+      "Masterplan perumahan Sapphire Serenity Adiwerna yang menampilkan layout, jalan, ruang terbuka hijau, dan fasilitas umum.",
   }
 
   const specifications = {
@@ -413,9 +445,9 @@ export default function Properties() {
   }
 
   const location = {
-    embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.152090540976!2d109.1275648!3d-6.991360799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fbf007c3b46cb%3A0x5da496f205d213b2!2sSapphire%20Serenity%20Slawi!5e0!3m2!1sen!2sid!4v1761065829691!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>',
-    name: "Denah Lokasi Sapphire Serenity Slawi",
-    description: "Lokasi strategis di pusat kota Slawi dengan akses mudah ke berbagai fasilitas umum.",
+    embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.152090540976!2d109.1275648!3d-6.991360799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fbf007c3b46cb%3A0x5da496f205d213b2!2sSapphire%20Serenity%20Adiwerna!5e0!3m2!1sen!2sid!4v1761065829691!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>',
+    name: "Denah Lokasi Sapphire Serenity Adiwerna",
+    description: "Lokasi strategis di kawasan Adiwerna dengan akses mudah ke berbagai fasilitas umum.",
   }
 
   interface Property {
@@ -591,8 +623,7 @@ export default function Properties() {
       <div className="container">
         <h2 className="section-title">Siteplan & Tipe Rumah</h2>
         <p className="section-subtitle">
-          Temukan rumah impian Anda di Sapphire Serenity Slawi. Kami menawarkan berbagai tipe rumah yang dirancang untuk
-          memenuhi kebutuhan dan gaya hidup Anda.
+          Temukan rumah impian Anda di Sapphire Serenity Adiwerna dengan berbagai tipe yang dirancang khusus untuk memenuhi kebutuhan dan gaya hidup Anda.
         </p>
 
         <div className="property-type-container">
@@ -936,7 +967,7 @@ export default function Properties() {
 
                     <div className="modal-cta">
                       <Link
-                        href="https://wa.me/62811261740?text=Halo,%20saya%20tertarik%20dengan%20properti%20Sapphire%20Serenity%20Slawi"
+                        href="https://wa.me/62811261740?text=Halo,%20saya%20tertarik%20dengan%20properti%20Sapphire%20Serenity%20Adiwerna"
                         className="modal-cta-button"
                       >
                         Hubungi Kami

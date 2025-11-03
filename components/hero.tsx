@@ -18,19 +18,19 @@ export default function Hero() {
   const heroSlides = [
     {
       image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761071336/Type_85_zmze7h.avif",
-      title: "Clean, Calm, & Classy",
+      title: "The Art of Serene Living",
       description:
-        "Perumahan eksklusif di Slawi yang menghadirkan kenyamanan, gaya hidup modern, dan lokasi strategis di pusat kota.",
+        "Rumah yang menghadirkan ketenangan untuk raga dan pikiran.",
     },
     {
       image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761071337/type_90_qpwdco.avif",
-      title: "Hunian Modern & Nyaman",
-      description: "Desain arsitektur minimalis modern dengan fasilitas lengkap untuk keluarga Indonesia.",
+      title: "Kehidupan Nyaman di Jantung Adiwerna",
+      description: "Semua fasilitas utama hanya beberapa menit dari rumah.",
     },
     {
       image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1761071664/Gate_lkgdrn.avif",
-      title: "Investasi Masa Depan",
-      description: "Lokasi strategis dengan akses mudah ke berbagai fasilitas umum dan pusat kota Slawi.",
+      title: "Compact Living, Elegan & Berkelas",
+      description: "Modern, fungsional, dan siap jadi aset bernilai.",
     },
   ]
 

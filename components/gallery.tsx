@@ -95,9 +95,9 @@ export default function Gallery() {
   return (
     <section id="gallery" className="section">
       <div className="container">
-        <h2 className="section-title">Gallery Sapphire Serenity Slawi</h2>
+        <h2 className="section-title">Gallery Sapphire Serenity Adiwerna</h2>
         <p className="section-subtitle">
-          Temukan keindahan dan kenyamanan rumah impian Anda di Sapphire Serenity Slawi. Setiap sudut dirancang dengan
+          Temukan keindahan dan kenyamanan rumah impian Anda di Sapphire Serenity Adiwerna. Setiap sudut dirancang dengan
           perhatian terhadap detail, menciptakan ruang yang sempurna untuk hidup dan bersantai.
         </p>
 

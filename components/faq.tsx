@@ -13,22 +13,22 @@ export default function FAQ() {
     {
       question: "Dimana lokasi proyeknya?",
       answer:
-        "Jl. Gajah Mada, Kalisapu, Kec. Slawi, Kabupaten Tegal. Lokasinya dekat dengan fasilitas umum. Hanya berjarak 4 menit dari RSUD dr. Soeselo Slawi, 5 menit ke SD & SMP Negeri Slawi Kulon, 5 menit ke Pasar Slawi dan pusat perbelanjaan kota, dan 4 menit dari Terminal Dukuhsalam Slawi.",
+        "Jalan Raya Singkil Kaliwadas, Adiwerna, Kabupaten Tegal. Lokasinya dekat dengan fasilitas umum. Hanya berjarak 3 menit dari Rumah Sakit Islam PKU Muhammadiyah, 1 menit SDN 01 Kaliwadas, 1 menit dari SMPN 04 Adiwerna, dan 3 menit dari Lotte Mart Tegal.",
     },
     {
-      question: "Apa saja fasilitas umum yang disediakan di dalam Sapphire Serenity Slawi?",
+      question: "Apa saja fasilitas umum yang disediakan di dalam Sapphire Serenity Adiwerna?",
       answer:
-        "Di Sapphire Serenity Slawi, kami menghadirkan lingkungan dengan fasilitas modern dan nyaman. Kami menyediakan fasilitas olahraga di sekitar area perumahan. Selain itu, kami juga menyediakan area terbuka hijau atau green area yang memberikan kesejukan dan ketenangan sehingga cocok digunakan untuk tempat rekreasi Anda. Kami juga mengutamakan keamanan dengan one gate system dan CCTV yang aktif 24 jam untuk menjaga kawasan tetap aman.",
+        "Di Sapphire Serenity Adiwerna, kami menghadirkan lingkungan dengan fasilitas modern dan nyaman. Kami menyediakan fasilitas olahraga di sekitar area perumahan. Selain itu, kami juga menyediakan area terbuka hijau atau green area yang memberikan kesejukan dan ketenangan sehingga cocok digunakan untuk tempat rekreasi Anda. Kami juga mengutamakan keamanan dengan one gate system dan CCTV yang aktif 24 jam untuk menjaga kawasan tetap aman.",
     },
     {
-      question: "Apakah rumah di Samara Penusupan sudah memiliki sertifikat hak milik (SHM)?",
+      question: "Apakah rumah di Sapphire Serenity Adiwerna sudah memiliki sertifikat hak milik (SHM)?",
       answer:
-        "Di Sapphire Serenity Slawi, kami sudah mengurus proses pemecahan sertifikat, jadi saat serah terima nanti, sertifikatnya langsung atas nama Bapak/Ibu. Hal ini mempermudah dan mempercepat proses kepemilikan tanpa perlu menunggu lama untuk pengurusan balik nama. Kami memastikan urusan administrasi menjadi lebih praktis untuk Bapak/Ibu, jadi begitu Anda menerima kunci, status kepemilikan sudah resmi atas nama Anda.",
+        "Di Sapphire Serenity Adiwerna, kami sudah mengurus proses pemecahan sertifikat, jadi saat serah terima nanti, sertifikatnya langsung atas nama Bapak/Ibu. Hal ini mempermudah dan mempercepat proses kepemilikan tanpa perlu menunggu lama untuk pengurusan balik nama. Kami memastikan urusan administrasi menjadi lebih praktis untuk Bapak/Ibu, jadi begitu Anda menerima kunci, status kepemilikan sudah resmi atas nama Anda.",
     },
     {
       question: "Apakah sertifikat ini aman dari masalah hukum di kemudian hari?",
       answer:
-        "Mengenai legalitas di Sapphire Serenity Slawi, semua sudah lengkap dan aman, Bapak/Ibu. Properti di sini dilengkapi Sertifikat Hak Milik (SHM), jadi kepemilikannya jelas atas nama pembeli. Izin bangunannya juga sudah ada melalui Persetujuan Bangunan Gedung (PBG), artinya bangunan sudah sesuai aturan dan aman.",
+        "Mengenai legalitas di Sapphire Serenity Adiwerna, semua sudah lengkap dan aman, Bapak/Ibu. Properti di sini dilengkapi Sertifikat Hak Milik (SHM), jadi kepemilikannya jelas atas nama pembeli. Izin bangunannya juga sudah ada melalui Persetujuan Bangunan Gedung (PBG), artinya bangunan sudah sesuai aturan dan aman.",
     },
     {
       question: "Kapan saya akan menerima sertifikat rumah setelah pembelian?",
@@ -36,9 +36,9 @@ export default function FAQ() {
         "Setelah proses pembelian selesai, sertifikat rumah akan siap dalam waktu sekitar 8 bulan. Kami pastikan prosesnya berjalan lancar dan akan segera mengabari Anda begitu sertifikat selesai. Selama periode ini, kami juga siap membantu dan memberikan update terkait perkembangan administrasi.",
     },
     {
-      question: "Apakah rumah di Sapphire Serenity Slawi sudah memiliki PBG?",
+      question: "Apakah rumah di Sapphire Serenity Adiwerna sudah memiliki PBG?",
       answer:
-        "Rumah di Sapphire Serenity Slawi sudah memiliki Persetujuan Bangunan Gedung (PBG), jadi Anda tidak perlu khawatir soal legalitas bangunan ini. PBG ini memastikan bahwa proses pembangunan sudah sesuai dengan peraturan yang berlaku, sehingga hunian di sini aman dan sah untuk ditinggali, maupun sebagai investasi jangka panjang.",
+        "Rumah di Sapphire Serenity Adiwerna sudah memiliki Persetujuan Bangunan Gedung (PBG), jadi Anda tidak perlu khawatir soal legalitas bangunan ini. PBG ini memastikan bahwa proses pembangunan sudah sesuai dengan peraturan yang berlaku, sehingga hunian di sini aman dan sah untuk ditinggali, maupun sebagai investasi jangka panjang.",
     },
     {
       question: "Bagaimana saya bisa memastikan legalitas semua dokumen yang diberikan?",
@@ -63,7 +63,7 @@ export default function FAQ() {
     {
       question: "Apakah ada pilihan untuk membayar tanpa KPR?",
       answer:
-        "Ya, di Samara Penusupan kami juga menyediakan pilihan untuk pembayaran tanpa menggunakan KPR. Pembayaran bisa dilakukan secara cash keras (pembayaran penuh sekaligus), soft cash (dengan uang muka lebih ringan dan sisanya dicicil), dan cash termin. Kami siap membantu menjelaskan setiap opsi dan memberi informasi terkait potongan harga atau promo yang berlaku untuk pembayaran tunai.",
+        "Ya, di Sapphire Serenity Adiwerna kami juga menyediakan pilihan untuk pembayaran tanpa menggunakan KPR. Pembayaran bisa dilakukan secara cash keras (pembayaran penuh sekaligus), soft cash (dengan uang muka lebih ringan dan sisanya dicicil), dan cash termin. Kami siap membantu menjelaskan setiap opsi dan memberi informasi terkait potongan harga atau promo yang berlaku untuk pembayaran tunai.",
     },
     {
       question: "Berapa uang muka dan cicilan per bulan yang harus dibayarkan?",
@@ -82,7 +82,7 @@ export default function FAQ() {
     <section id="faq" className="faq-section">
       <div className="container">
         <div className="faq-header">
-          <h2 className="faq-title">Pertanyaan Umum Serenity Slawi</h2>
+          <h2 className="faq-title">Pertanyaan Umum Sapphire Serenity Adiwerna</h2>
           <p className="faq-description">
             Temukan semua informasi yang Anda butuhkan di bagian FAQ kami.
           </p>

@@ -105,8 +105,8 @@ export default function Footer() {
                 <div className="footer-bottom">
                     <div className="footer-logo">
                         <Image
-                            src="https://res.cloudinary.com/dx8w9qwl6/image/upload/w_150,h_40,c_fit,f_auto,q_auto:eco/v1757392355/sgm_v79mjj.png"
-                            alt="Sapphire Serenity Slawi Logo"
+                            src="https://res.cloudinary.com/dx8w9qwl6/image/upload/v1757392355/sgm_v79mjj.png"
+                            alt="Sapphire Serenity Adiwerna Logo"
                             width={150}
                             height={40}
                             className="footer-logo-image"
@@ -114,7 +114,7 @@ export default function Footer() {
                     </div>
 
                     <div className="footer-copyright">
-                        &copy; {new Date().getFullYear()} Sapphire Griya Modern by Sapphire Grup.
+                        &copy; {new Date().getFullYear()} Sapphire Serenity Adiwerna by Sapphire Grup.
                     </div>
 
                     <div className="footer-social">

@@ -6,7 +6,7 @@ export default function WhatsAppFloat() {
   const handleClick = () => {
     // Replace with your WhatsApp number (format: country code + number without + or spaces)
     const phoneNumber = "62811261740" // Example: Indonesian number
-    const message = encodeURIComponent("Halo, saya tertarik dengan Sapphire Serenity Slawi")
+    const message = encodeURIComponent("Halo, saya tertarik dengan Sapphire Serenity Adiwerna")
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank")
   }
 

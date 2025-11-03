@@ -14,7 +14,7 @@ export default function YouTube() {
                     <div className="youtube-content">
                         <h2 className="youtube-title">Subscribe Channel Sapphire</h2>
                         <p className="youtube-description">
-                            Ikuti channel YouTube kami untuk mendapatkan update terbaru tentang Sapphire Serenity Slawi,
+                            Ikuti channel YouTube kami untuk mendapatkan update terbaru tentang Sapphire Serenity Adiwerna,
                             tour virtual, tips properti, dan konten menarik lainnya.
                         </p>
                         <Link
@@ -71,7 +71,7 @@ export default function YouTube() {
                                 width="100%"
                                 height="400"
                                 src="https://www.youtube.com/embed/6mo2w9uDpQ4?si=-zu4-JrJj6PP-oeu&autoplay=1"
-                                title="Sapphire Serenity Slawi"
+                                title="Sapphire Serenity Adiwerna"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen

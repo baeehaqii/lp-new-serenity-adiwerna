@@ -6,20 +6,21 @@ import { ThemeProvider } from "@/components/ThemeProvider"
 import { Suspense } from "react"
 
 export const metadata: Metadata = {
-  title: "Sapphire Serenity Slawi",
-  description: "Temukan properti impian Anda bersama Sapphire Serenity Slawi",
+  title: "Sapphire Serenity Adiwerna - Perumahan Premium Adiwerna Tegal",
+  description: "Temukan properti impian Anda di Sapphire Serenity Adiwerna, perumahan modern minimalis di Jl. Raya Singkil Kaliwadas, Kec. Adiwerna, Kab. Tegal dengan konsep Clean, Calm, & Classy",
   icons: {
     icon: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761065068/Logo_pogacr.jpg",
     shortcut: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761065068/Logo_pogacr.jpg",
     apple: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1761065068/Logo_pogacr.jpg",
   },
   keywords: [
-    "Sapphire Serenity Slawi",
-    "Perumahan Slawi",
-    "Rumah Slawi",
-    "Sapphire Serenity",
+    "Sapphire Serenity Adiwerna",
+    "Perumahan Adiwerna",
+    "Rumah Adiwerna",
     "Rumah Tegal",
     "Perumahan Tegal",
+    "Hunian Modern Adiwerna",
+    "Properti Adiwerna Tegal",
   ],
 }
 
