@@ -40,9 +40,9 @@ export default function About() {
 
             {/* Konten teks */}
             <div className="about-content">
-              <h2 className="about-title">Sapphire Town House Slawi</h2>
+              <h2 className="about-title">Sapphire Serenity Adiwerna</h2>
               <p className="about-description">
-                Berada di Jl. Raya Singkil Kaliwadas, Kaliwadas, Kec. Adiwerna, Sapphire Serenity Adiwerna menghadirkan perumahan Adiwerna yang modern, estetik, dan fungsional. Dirancang dengan konsep The Art of Serene Living, hunian ini menyatukan kenyamanan dan tata ruang optimal, sekaligus memudahkan akses ke Tegal, Slawi, tol, sekolah, dan pusat aktivitas kota. Sapphire Serenity Adiwerna menjadi pilihan tepat bagi keluarga muda maupun profesional yang mencari hunian prestisius, bergaya modern, dan bernilai investasi tinggi di jantung Adiwerna.
+                Berada di Jl. Raya Singkil Kaliwadas, Kaliwadas, Kec. Adiwerna, Sapphire Serenity Adiwerna menghadirkan perumahan Adiwerna yang modern, estetik, dan fungsional. Dirancang dengan konsep The Art of Serene Living, hunian ini menyatukan kenyamanan dan tata ruang optimal, sekaligus memudahkan akses ke Tegal, Slawi, tol, sekolah, dan pusat aktivitas kota.
               </p>
               <div>
                 {/* Ubah Link menjadi button untuk membuka modal */}
@@ -59,22 +59,22 @@ export default function About() {
 
           {/* Container statistik */}
           <div className="about-stats-grid">
-            {/* Statistik - Projects Completed */}
+            {/* Statistik - Lokasi Terbaik */}
             <div className="about-stat-card">
-              <div className="about-stat-value">1</div>
-              <div className="about-stat-label">Perumahan Terbaik di Tegal</div>
+              <div className="about-stat-value">9</div>
+              <div className="about-stat-label">Lokasi Terbaik di Jawa Bagian Selatan</div>
             </div>
 
-            {/* Statistik - Awards */}
+            {/* Statistik - Keluarga Sapphire */}
             <div className="about-stat-card">
               <div className="about-stat-value">10000+</div>
               <div className="about-stat-label">Keluarga Sapphire</div>
             </div>
 
-            {/* Statistik - Satisfied Clients */}
+            {/* Statistik - Proyek Unggulan */}
             <div className="about-stat-card">
-              <div className="about-stat-value">5+</div>
-              <div className="about-stat-label">CCTV Kawasan</div>
+              <div className="about-stat-value">9</div>
+              <div className="about-stat-label">Proyek Unggulan</div>
             </div>
 
             {/* Statistik - Years of Experience */}
@@ -94,10 +94,10 @@ export default function About() {
               <X />
             </button>
             <div className="modal-content">
-              <h2 className="modal-title">Sapphire Town House Slawi</h2>
+              <h2 className="modal-title">Sapphire Serenity Adiwerna</h2>
               <div className="modal-image">
                 <Image
-                  src="https://res.cloudinary.com/dqobwse9q/image/upload/w_700,h_400,c_fill,f_auto,q_auto:eco/v1754637078/WhatsApp_Image_2025-06-19_at_11.00.07_bvpgud.jpg"
+                  src="https://res.cloudinary.com/dx8w9qwl6/image/upload/w_700,h_400,c_fill,f_auto,q_auto:eco/v1762849944/adiwerna40-2_mjcxeo.avif"
                   alt="Sapphire Serenity Adiwerna"
                   width={700}
                   height={400}

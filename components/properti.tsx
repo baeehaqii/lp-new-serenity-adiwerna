@@ -329,6 +329,7 @@ export default function Properties() {
   const [kprDp, setKprDp] = useState<string>('')
   const [kprTahun, setKprTahun] = useState<string>('')
   const [kprBunga, setKprBunga] = useState<string>('')
+  const [showAllSpecs, setShowAllSpecs] = useState(false)
 
   const propertyTypes: PropertyType[] = [
     { id: "tipe-rumah", label: "Tipe Rumah", active: true },
@@ -341,12 +342,11 @@ export default function Properties() {
     {
       id: 1,
       images: [
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1761071336/Type_85_zmze7h.avif",
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1761071337/type_90_qpwdco.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1762849944/adiwerna40-1_pfdbho.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1762849944/adiwerna40-2_mjcxeo.avif",
       ],
-      floorPlan: "/denah-type-40.png",
+      floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762959332/Screenshot_2025-11-12_at_21.47.42_kiksft.avif",
       name: "Tipe 40",
-      price: "4XX.XX.XXX",
       bedrooms: 2,
       bathrooms: 1,
       area: "40",
@@ -357,12 +357,11 @@ export default function Properties() {
     {
       id: 2,
       images: [
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1761071336/Type_85_zmze7h.avif",
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1761071337/type_90_qpwdco.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1762850673/adiwerna55-1_wg9kvo.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1762850671/adiwerna55-2_prfhts.avif",
       ],
-      floorPlan: "/denah-type-55.png",
+      floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762959332/Screenshot_2025-11-12_at_21.47.51_c6xfio.avif",
       name: "Tipe 55",
-      price: "5XX.XX.XXX",
       bedrooms: 2,
       bathrooms: 2,
       area: "55",
@@ -373,12 +372,11 @@ export default function Properties() {
     {
       id: 3,
       images: [
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1761071336/Type_85_zmze7h.avif",
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1761071337/type_90_qpwdco.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1762857992/adiwrna60-2_svayhc.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1762857992/adiwrna60-1_mojvnf.avif",
       ],
-      floorPlan: "/denah-type-60.png",
+      floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762959332/Screenshot_2025-11-12_at_21.47.58_jgiv23.avif",
       name: "Tipe 60",
-      price: "6XX.XX.XXX",
       bedrooms: 3,
       bathrooms: 2,
       area: "60",
@@ -389,12 +387,11 @@ export default function Properties() {
     {
       id: 4,
       images: [
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1761071336/Type_85_zmze7h.avif",
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1761071337/type_90_qpwdco.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1762860604/adiwerna85-1_pec5xi.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1762860604/adiwerna85-2_rlqply.avif",
       ],
-      floorPlan: "/denah-type-85.png",
+      floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762959332/Screenshot_2025-11-12_at_21.48.06_qp8o6z.avif",
       name: "Tipe 85",
-      price: "8XX.XXX.XXX",
       bedrooms: 3,
       bathrooms: 3,
       area: "85",
@@ -405,12 +402,11 @@ export default function Properties() {
     {
       id: 5,
       images: [
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1761071336/Type_85_zmze7h.avif",
-        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1761071337/type_90_qpwdco.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1762860606/adiwerna90-1_pj2jy6.avif",
+        "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_380,h_285,c_fill,f_auto,q_auto:eco/v1762860605/adiwerna90-2_dxi1c0.avif",
       ],
-      floorPlan: "/denah-type-90.png",
+      floorPlan: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762959332/Screenshot_2025-11-12_at_21.48.13_kq3e3e.avif",
       name: "Tipe 90",
-      price: "9XX.XXX.XXX",
       bedrooms: 3,
       bathrooms: 3,
       area: "90",
@@ -422,7 +418,7 @@ export default function Properties() {
 
   const siteplan = {
     id: "siteplan-1",
-    image: "https://res.cloudinary.com/dqobwse9q/image/upload/w_1000,h_700,c_fill,f_auto,q_auto:eco/v1755444815/siteplane_serenity_slawi_kvzyhe.png",
+    image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762958576/siteplan_adiwrna_yeycha.avif",
     name: "Siteplan Sapphire Serenity Adiwerna",
     description:
       "Masterplan perumahan Sapphire Serenity Adiwerna yang menampilkan layout, jalan, ruang terbuka hijau, dan fasilitas umum.",
@@ -444,8 +440,24 @@ export default function Properties() {
     fiturRumah: "kanopi rangka hollow, cover wood plank, smart door lock",
   }
 
+  const specificationsList = [
+    { label: "Pondasi", value: specifications.pondasi },
+    { label: "Dinding", value: specifications.dinding },
+    { label: "Lantai", value: specifications.lantai },
+    { label: "Atap", value: specifications.atap },
+    { label: "Kamar Mandi/WC", value: specifications.kamarMandi },
+    { label: "Kusen & Pintu", value: specifications.kusenPintu },
+    { label: "Jendela", value: specifications.jendela },
+    { label: "Plafon", value: specifications.plafon },
+    { label: "Air", value: specifications.air },
+    { label: "Listrik", value: specifications.listrik },
+    { label: "Elektrikal", value: specifications.elektrikal },
+    { label: "Mezanin (type 55)", value: specifications.mezanin },
+    { label: "Fitur Rumah", value: specifications.fiturRumah },
+  ]
+
   const location = {
-    embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.152090540976!2d109.1275648!3d-6.991360799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fbf007c3b46cb%3A0x5da496f205d213b2!2sSapphire%20Serenity%20Adiwerna!5e0!3m2!1sen!2sid!4v1761065829691!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>',
+    embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.6875958149258!2d109.11613190000001!3d-6.927895199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fb900547449cd%3A0x4255d11d18348d7d!2sSapphire%20Serenity%20Adiwerna!5e0!3m2!1sen!2ssg!4v1762958520950!5m2!1sen!2ssg" width="100%" height="450" style="border:0;" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>',
     name: "Denah Lokasi Sapphire Serenity Adiwerna",
     description: "Lokasi strategis di kawasan Adiwerna dengan akses mudah ke berbagai fasilitas umum.",
   }
@@ -455,7 +467,7 @@ export default function Properties() {
     images: string[]
     floorPlan: string
     name: string
-    price: string
+    price?: string
     bedrooms: number
     bathrooms: number
     area: string
@@ -758,7 +770,7 @@ export default function Properties() {
           <div className="specifications-container">
             <div className="specifications-image">
               <Image
-                src="https://res.cloudinary.com/dqobwse9q/image/upload/w_500,h_350,c_fill,f_auto,q_auto:eco/v1754637084/TYPE_85_1_i718cl.png"
+                src="https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762857992/adiwrna60-2_svayhc.avif"
                 alt="Spesifikasi Rumah"
                 width={600}
                 height={800}
@@ -768,59 +780,39 @@ export default function Properties() {
             <div className="specifications-content">
               <h3 className="specifications-title">Spesifikasi Rumah</h3>
               <div className="specifications-list">
-                <div className="specification-item">
-                  <span className="specification-label">Pondasi:</span>
-                  <span className="specification-value">{specifications.pondasi}</span>
-                </div>
-                <div className="specification-item">
-                  <span className="specification-label">Dinding:</span>
-                  <span className="specification-value">{specifications.dinding}</span>
-                </div>
-                <div className="specification-item">
-                  <span className="specification-label">Lantai:</span>
-                  <span className="specification-value">{specifications.lantai}</span>
-                </div>
-                <div className="specification-item">
-                  <span className="specification-label">Atap:</span>
-                  <span className="specification-value">{specifications.atap}</span>
-                </div>
-                <div className="specification-item">
-                  <span className="specification-label">Kamar Mandi/WC:</span>
-                  <span className="specification-value">{specifications.kamarMandi}</span>
-                </div>
-                <div className="specification-item">
-                  <span className="specification-label">Kusen & Pintu:</span>
-                  <span className="specification-value">{specifications.kusenPintu}</span>
-                </div>
-                <div className="specification-item">
-                  <span className="specification-label">Jendela:</span>
-                  <span className="specification-value">{specifications.jendela}</span>
-                </div>
-                <div className="specification-item">
-                  <span className="specification-label">Plafon:</span>
-                  <span className="specification-value">{specifications.plafon}</span>
-                </div>
-                <div className="specification-item">
-                  <span className="specification-label">Air:</span>
-                  <span className="specification-value">{specifications.air}</span>
-                </div>
-                <div className="specification-item">
-                  <span className="specification-label">Listrik:</span>
-                  <span className="specification-value">{specifications.listrik}</span>
-                </div>
-                <div className="specification-item">
-                  <span className="specification-label">Elektrikal:</span>
-                  <span className="specification-value">{specifications.elektrikal}</span>
-                </div>
-                <div className="specification-item">
-                  <span className="specification-label">Mezanin (type 55):</span>
-                  <span className="specification-value">{specifications.mezanin}</span>
-                </div>
-                <div className="specification-item">
-                  <span className="specification-label">Fitur Rumah:</span>
-                  <span className="specification-value">{specifications.fiturRumah}</span>
-                </div>
+                {specificationsList.slice(0, showAllSpecs ? specificationsList.length : 5).map((spec, index) => (
+                  <div key={index} className="specification-item">
+                    <span className="specification-label">{spec.label}:</span>
+                    <span className="specification-value">{spec.value}</span>
+                  </div>
+                ))}
               </div>
+              {specificationsList.length > 5 && (
+                <button
+                  onClick={() => setShowAllSpecs(!showAllSpecs)}
+                  style={{
+                    marginTop: '20px',
+                    padding: '12px 24px',
+                    backgroundColor: '#831016',
+                    color: '#ffffff',
+                    border: 'none',
+                    borderRadius: '8px',
+                    fontSize: '14px',
+                    fontWeight: '600',
+                    cursor: 'pointer',
+                    transition: 'all 0.3s ease',
+                    fontFamily: 'inherit',
+                  }}
+                  onMouseEnter={(e) => {
+                    (e.target as HTMLButtonElement).style.backgroundColor = '#a01a1f'
+                  }}
+                  onMouseLeave={(e) => {
+                    (e.target as HTMLButtonElement).style.backgroundColor = '#831016'
+                  }}
+                >
+                  {showAllSpecs ? 'Tampilkan Lebih Sedikit' : 'Tampilkan Lebih Banyak'}
+                </button>
+              )}
             </div>
           </div>
         ) : activeType === "lokasi" ? (
@@ -842,7 +834,7 @@ export default function Properties() {
               <p>{location.description}</p>
               <div className="location-button-container">
                 <Link
-                  href="https://maps.app.goo.gl/yWFRgAr5ZDvcyGFW6"
+                  href="https://maps.app.goo.gl/3sBJAjwH9dtDb9Qs5"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="location-gmaps-button"
@@ -961,9 +953,6 @@ export default function Properties() {
                         </div>
                       </div>
                     </div>
-
-                    <h3 className="modal-subtitle">Harga</h3>
-                    <div className="modal-price">Rp {selectedProperty.price}</div>
 
                     <div className="modal-cta">
                       <Link
