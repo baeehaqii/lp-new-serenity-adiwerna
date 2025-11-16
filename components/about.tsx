@@ -115,7 +115,7 @@ export default function About() {
                   <li>1 menit ke fasilitas pendidikan</li>
                   <li>3 menit ke fasilitas perbelanjaan</li>
                   <li>Berada di jalur utama Slawi – Tegal</li>
-                  <li>Lingkungan berkembang dengan akses mudah ke kawasan komersial dan fasilitas umum</li>
+                  <li>Lingkungan berkembang dengan akses mudah ke kawasan komersial dan fasilitas umum.</li>
                 </ul>
 
                 <h3 className="modal-subtitle">Fasilitas Premium</h3>
