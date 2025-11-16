@@ -25,15 +25,15 @@ export default function Gallery() {
       type: "image",
     },
     {
-      src: "https://www.instagram.com/reel/DN2khw-UrEC/",
+      src: "https://www.instagram.com/reel/DKV9jmwzvYE/?igsh=OG95a29mczhqM20w",
       alt: "Instagram Reel 1",
       type: "video",
       thumbnail: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762849944/adiwerna40-2_mjcxeo.avif",
     },
     {
-      src: "https://www.instagram.com/reel/DNAe6_NTxcG/",
+      src: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762850671/adiwerna55-2_prfhts.avif",
       alt: "Instagram Reel 2",
-      type: "video",
+      type: "image",
       thumbnail: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1762850671/adiwerna55-2_prfhts.avif",
     },
 
