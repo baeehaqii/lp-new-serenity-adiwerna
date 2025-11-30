@@ -17,21 +17,21 @@ export default function Testimonials() {
     const testimonials: Testimonial[] = [
         {
             id: 1,
-            name: "Ibu Rossie",
-            location: "Tegal, Indonesia",
-            image: "https://res.cloudinary.com/dqobwse9q/image/upload/v1755435664/Screenshot_2025-08-17_at_19-59-13_Sapphire_Griya_Modern_Official_Perumahan_Tegal_Slawi_Brebes_sapphiregriyamodern_Instagram_photos_and_videos_t4hycn.png",
+            name: "Sriwijayanti",
+            location: "Indonesia",
+            image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1764488270/gambar-10_btnr0a.avif",
             rating: 5,
-            text: "Saya sangat senang dengan pengalaman membeli rumah di Sapphire Tegal. Tim marketing sangat membantu dan ramah. Prosesnya cepat dan mudah. Saya merasa sangat puas dengan rumah yang saya beli. Terima kasih Sapphire Grup!",
+            text: "Lagi cari-cari rumah buat usaha, biar lokasinya gampang dicari. Ehh ketemu sama Sapphire Serenity Adiwerna yang lokasinya strategis banget. Bismillah mantapkan diri buat ambil di sini.",
         },
         {
             id: 2,
-            name: "Bapak Handy",
-            location: "Tegal, Indonesia",
-            image: "https://res.cloudinary.com/dqobwse9q/image/upload/v1755435663/Screenshot_2025-08-17_at_20-00-42_Sapphire_Griya_Modern_Official_Perumahan_Tegal_Slawi_Brebes_sapphiregriyamodern_Instagram_photos_and_videos_ybu2pd.png",
+            name: "Januar Alfan",
+            location: "Indonesia",
+            image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/v1764488269/gambar-11_tm9guf.avif",
             rating: 5,
-            text: "Saya sangat puas dengan pelayanan Sapphire di Tegal. Tim marketing sangat profesional dan membantu saya menemukan rumah yang sesuai dengan kebutuhan keluarga. Lokasi perumahan juga strategis banget. Terima kasih Sapphire Griya Modern!",
+            text: "Lokasinya well sih, pas pertama kali ceklok kebayang sih mobilitasnya mudah dan cepet.",
         },
-        
+
     ]
 
     const [currentIndex, setCurrentIndex] = useState(0)

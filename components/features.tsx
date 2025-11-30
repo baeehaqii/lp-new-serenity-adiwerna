@@ -31,9 +31,9 @@ export default function Features() {
   return (
     <section id="fasilitas" className="features-section">
       <div className="container">
-        <h2 className="section-title">The Art of Serene Living</h2>
+        <h2 className="section-title">Selaras. Seimbang. Serenity.</h2>
         <p className="section-subtitle">
-          Konsep hunian yang mengutamakan ketenangan dan kenyamanan untuk keluarga Anda
+          Hunian Seimbang untuk Hidup yang Lebih Tenang.
         </p>
 
         <div className="features-grid">

@@ -18,7 +18,7 @@ export default function Hero() {
   const heroSlides = [
     {
       image: "https://res.cloudinary.com/dx8w9qwl6/image/upload/w_800,h_450,c_fill,f_auto,q_40/v1762849944/adiwerna40-1_pfdbho.avif",
-      title: "The Art of Serene Living",
+      title: "Selaras. Seimbang. Serenity",
       description:
         "Rumah yang menghadirkan ketenangan untuk raga dan pikiran.",
     },

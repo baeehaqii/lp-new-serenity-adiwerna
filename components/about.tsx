@@ -42,7 +42,7 @@ export default function About() {
             <div className="about-content">
               <h2 className="about-title">Sapphire Serenity Adiwerna</h2>
               <p className="about-description">
-                Berada di Jl. Raya Singkil Kaliwadas, Kaliwadas, Kec. Adiwerna, Sapphire Serenity Adiwerna menghadirkan perumahan Adiwerna yang modern, estetik, dan fungsional. Dirancang dengan konsep The Art of Serene Living, hunian ini menyatukan kenyamanan dan tata ruang optimal, sekaligus memudahkan akses ke Tegal, Slawi, tol, sekolah, dan pusat aktivitas kota.
+                Berada di Jl. Raya Singkil Kaliwadas, Kaliwadas, Kec. Adiwerna, Sapphire Serenity Adiwerna menghadirkan perumahan Adiwerna yang modern, estetik, dan fungsional. Dirancang dengan konsep Selaras. Seimbang. Serenity. Hunian ini menyatukan kenyamanan dan tata ruang optimal, sekaligus memudahkan akses ke Tegal, Slawi, tol, sekolah, dan pusat aktivitas kota. 
               </p>
               <div>
                 {/* Ubah Link menjadi button untuk membuka modal */}
@@ -106,7 +106,7 @@ export default function About() {
               </div>
               <div className="modal-description">
                 <p>
-                  Berada di Jl. Raya Singkil Kaliwadas, Kaliwadas, Kec. Adiwerna, Sapphire Serenity Adiwerna menghadirkan perumahan Adiwerna yang modern, estetik, dan fungsional. Dirancang dengan konsep The Art of Serene Living, hunian ini menyatukan kenyamanan dan tata ruang optimal, sekaligus memudahkan akses ke Tegal, Slawi, tol, sekolah, dan pusat aktivitas kota.
+                  Berada di Jl. Raya Singkil Kaliwadas, Kaliwadas, Kec. Adiwerna, Sapphire Serenity Adiwerna menghadirkan perumahan Adiwerna yang modern, estetik, dan fungsional. Dirancang dengan konsep Selaras. Seimbang. Serenity. hunian ini menyatukan kenyamanan dan tata ruang optimal, sekaligus memudahkan akses ke Tegal, Slawi, tol, sekolah, dan pusat aktivitas kota. Sapphire Serenity Adiwerna menjadi pilihan tepat bagi keluarga muda maupun profesional yang mencari hunian prestisius, bergaya modern, dan bernilai investasi tinggi di jantung Adiwerna.
                 </p>
 
                 <h3 className="modal-subtitle">Keunggulan Lokasi</h3>
