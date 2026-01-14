@@ -956,7 +956,7 @@ export default function Properties() {
 
                     <div className="modal-cta">
                       <Link
-                        href="https://wa.me/62811261740?text=Halo,%20saya%20tertarik%20dengan%20properti%20Sapphire%20Serenity%20Adiwerna"
+                        href="https://wa.me/628112727256?text=Halo,%20saya%20tertarik%20dengan%20properti%20Sapphire%20Serenity%20Adiwerna"
                         className="modal-cta-button"
                       >
                         Hubungi Kami
